@@ -1,7 +1,8 @@
 
 
 class Memory:
-    def __init__(self, memory_data):
+    def __init__(self, memory_data, memory_create_time):
+        self.memory_create_time = memory_create_time
         self.memory_cate = None
         self.memory_data = memory_data
 
